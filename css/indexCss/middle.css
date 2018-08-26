@@ -1,0 +1,112 @@
+#midTop {
+	background: url(../../img/index/middle/content_bg.jpg));
+	height: 360px;
+}
+.topLeft {
+	background: url(../../img/index/middle/content_sm_bg.jpg);
+	height: 336px;
+	width: 350px;
+	float: left; /*使后边两个盒子平铺 显示*/
+	border: 1px solid #D7D7D7;
+}
+/*设置添加标题前的+号*/
+.topTitle {
+	background: url(../../img/index/middle/contentimg.jpg) left center no-repeat;
+	text-indent: 25px; /*文本向右缩进*/
+	margin-left: 10px;
+}
+.topLeft span {
+	font-size: 18px;
+	color: #C60;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	line-height: 60px; 使文本内容上下居中
+}
+/*列表顶部图片居中*/
+.listImg {
+	text-align: center;
+	margin-top: 10px;
+}
+/*列表文字部分*/
+.listText ul {
+	list-style-image: url(../../img/index/middle/ico.jpg);
+	margin-top: 10px;
+	text-indent: 10px;
+}
+.listText ul li {
+	margin-bottom: 10px;
+	padding-bottom: 2px;
+	color: #5D5A5A;
+	border-bottom: #5D5A5A 1px dotted;
+}
+/*“公司动态”样式设置*/
+#companyBox {
+	width: 355x;
+	/*border: 1px solid red;*/
+	margin-left: 12px;
+	margin-right: 12px;
+}
+#companyBox .listText {
+	margin-top: 30px;
+	color: #5D5A5A;
+	font-weight: normal;
+	padding-left: 20px;
+	line-height: 25px;
+}
+/*“联系我们”样式*/
+#contactBox .listText ul {
+	list-style: none;
+}
+#contactBox .listText ul li {
+	border: none;
+	color: #5D5A5A;
+}
+
+/*中间下面部分midBottom样式*/
+/*设置背景*/
+#midBottom {
+	background: url(../../img/index/middle/content_bg.jpg);
+	height: 304px;
+}
+#midBottom #productBox {
+	width: 710px;
+	height: 280px;
+}
+#midBottom #vedioBox {
+	margin-right: 15px;
+	height: 280px;
+}
+/*产品展示无缝滚动设计*/
+#midBottom #demo {
+	background: #FFF;
+	width: 710px;
+	height: 200px;
+	margin: 10px auto; /*上下  左右*/
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+#demo img {
+	margin-right: 20px;
+}
+#indemo {
+	float: left;
+	width: 800%;
+}
+#demo1 {
+	float: left;
+}
+#demo2 {
+	float: left;
+}
+#demo1 .pro1List {
+	display: inline-block;
+}
+#demo1 .pro1List .text {
+	text-align: center;
+	margin-top: -20px;
+}
+#demo1 .pro1List span {
+	color: gray;
+	letter-spacing: 3px;
+}
+

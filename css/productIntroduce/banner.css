@@ -1,0 +1,37 @@
+/*banner广告样式设置*/
+#bannerBox {
+	margin-top: -78px;
+}
+#bannerBox .bannerImg {
+	text-align: center;
+}
+/*banner按钮样式*/
+.bannerBtn {
+	width: auto;
+	height: 20px;
+	/*设置线性渐变*/
+	background: linear-gradient(to right, orange, green);
+}
+.bannerBtn span {
+	display: inline-block; /*此处很重要*/
+	border: 1px solid white;
+	width: 25px;
+	height: 15px;
+	font-weight: 900;
+	text-align: center;
+	color: white;
+	padding-bottom: 3px;
+}
+.bannerBtn span:hover {
+	color: deepskyblue;
+}
+/*按钮定位*/
+#bannerBox {
+	position: relative;
+	/*border: 1px solid red;*/
+}
+#bannerBox .bannerBtn {
+	position: absolute;
+	right: 55px;
+	bottom: 10px;
+}

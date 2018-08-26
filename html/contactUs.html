@@ -1,0 +1,207 @@
+<!--联系我们页面-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>新智达联系我们</title>
+		<link rel="stylesheet" href="../css/productIntroduce/header.css"  />
+		<link rel="stylesheet" href="../css/productIntroduce/banner.css"  />
+		<link rel="stylesheet" href="../css/productIntroduce/middle.css"  />
+		<!--联系我们中间右部样式-->
+		<link rel="stylesheet" href="../css/conotactUs/middle.css"  />
+		<!--底部样式引用主页底部样式-->
+		<link rel="stylesheet" href="../css/indexCss/bottom.css"  />
+		<!--在线咨询功能引用主页样式-->
+		<link rel="stylesheet" href="../css/indexCss/onlineService.css"  />
+		<!--在线咨询功能引用主页脚本-->
+		<script type="text/javascript" src="../js/index/onlineService.js"></script>
+		<script type="text/javascript" src="../js/proIntroBanner.js"></script>
+		<!--验证表单-->
+		<script type="javascript" src="../js/contactUs/verify.js"></script>
+	</head>
+	
+	<body>
+		<div id="mainBox">
+			<!--顶部容器-->
+			<div id="topBox">
+				<!--logo部分-->
+				<div id="logo">
+					<!--设为首页/联系我们-->
+					<div class="logoContact">
+						<ul id="contactUs">
+							<li><a href="#">设为首页</a></li>
+							<li>|</li>
+							<li><a href="#">联系我们</a></li>
+						</ul>
+					</div>
+					<!--logo图片-->
+					<div class="logoImg"><img src="../img/index/新智达logo1副本.png" width="120" height="60" /></div>
+					<!--logo文字-->
+					<div class="logoFont"><span class="logoSpan">成都新智达智能家居公司</span></div>
+					<!--服务热线-->
+					<div class="logoRight"><img src="../img/index/top.jpg" /></div>
+				</div>
+				<!--menu菜单部分-->
+				<div id="mainMenu">
+					<div id="nav">
+						<ul>
+							<li class="index"><a href="../index.html">首页</a></li>
+							<li class="aboutUS">关于我们
+							    <div id="nav2">
+						            <ul>
+							          <li><a href="#">公司历史</a></li>
+							          <li><a href="#">公司文化</a></li>
+							          <li><a href="#">公司故事</a></li>
+						            </ul>
+					            </div>
+							</li>
+							<li class="news">新闻资讯
+								<div id="nav3">
+									<ul>
+										<li><a href="../../businessWebsite/html/News.html">公司新闻</a></li>
+										<li><a href="../../businessWebsite/html/News.html">行业新闻</a></li>
+										<li><a href="../../businessWebsite/html/News.html">视频新闻</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="productIntro"><a href="productIntroduce.html">产品介绍</a></li>
+							<li class="solveMethod">解决方案</li>
+							<li class="experCenter">体验中心</li>
+							<li class="successExample">成功案例</li>
+							<li class="joinCooperation">加盟合作</li>
+							<li class="dataDownload">资料下载</li>
+							<li class="contactUs">联系我们</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<!--banner广告部分-->
+			<div id="bannerBox">
+				<div class="bannerImg">
+					<img src="../img/index/banner/banner1.jpg" id="banner1" width="980"  />
+				</div>
+				<!--banner按钮部分-->
+				<div class="bannerBtn">
+					<span onmouseover="showBannerById(1)" onmouseout="btnMouseOut()">1</span>
+					<span onmouseover="showBannerById(2)" onmouseout="btnMouseOut()">2</span>
+					<span onmouseover="showBannerById(3)" onmouseout="btnMouseOut()">3</span>
+					<span onmouseover="showBannerById(4)" onmouseout="btnMouseOut()">4</span>
+				</div>
+			</div>
+			
+			<!--中间容器-->
+			<div id="middleBox">
+				<!--中间左部-->
+				<div class="midLeft">
+					<!--企业导航-->
+					<div class="enterpriseNav">
+						<div id="title">企业导航</div>
+						<div id="list">
+							<ul>
+								<li class="comIntro"><a href="#" >公司简介</a></li>
+								<li><a href="#">服务流程</a></li>
+								<li><a href="#">服务承诺</a></li>
+								<li><a href="#">服务宗旨</a></li>
+							</ul>
+						</div>
+					</div>
+					<!--新闻动态-->
+					<div class="newsTrend">
+						<div id="title">新闻动态</div>
+						<div id="list2">
+							<ul>
+								<li><a href="#">智能家居成为家居行业新宠儿</a></li>
+								<li><a href="#">智能家居成为家居行业新宠儿</a></li>
+								<li><a href="#">智能家居成为家居行业新宠儿</a></li>
+								<li><a href="#">智能家居成为家居行业新宠儿</a></li>
+								<li><a href="#">智能家居成为家居行业新宠儿</a></li>
+								<li><a href="#">智能家居成为家居行业新宠儿</a></li>
+								<li><a href="#">智能家居成为家居行业新宠儿</a></li>
+								<li><a href="#">智能家居成为家居行业新宠儿</a></li>
+							</ul>
+						</div>
+					</div>
+					<!--产品分类-->
+					<div class="productCategory">
+						<div id="title">产品分类</div>
+						<div id="list3">
+							<ul>
+								<li><a href="#">某某智能系统智能家电</a></li>
+								<li><a href="#">某某智能系统智能机器人</a></li>
+								<li><a href="#">某某智能系统智能套装</a></li>
+								<li><a href="#">某某智能系统智能厨房</a></li>
+								<li><a href="#">某某智能系统智能卫浴</a></li>
+								<li><a href="#">某某智能系统智能空气净化</a></li>
+								<li><a href="#">某某智能系统智能扫地机</a></li>
+								<li><a href="#">某某智能系统智能灯光控制</a></li>
+								<li><a href="#">某某智能系统智能手表</a></li>
+								<li><a href="#">某某智能系统智能家具</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--中间右部-->
+				<div class="midRight">
+					<!--联系我们logo-->
+					<div id="logo"><img src="../img/contactUs.jpg" /></div>
+					<!--表格部分-->
+					<div id="list">
+						<div class="title">联系我们</div>
+						<div class="table">
+							<form onsubmit="return verify(">
+							<table>
+								<tr>
+									<td class="td1">姓名：</td>
+									<td class="td2"><input type="text" id="userName" /></td>
+								</tr>
+								<tr>
+									<td class="td1">Email：</td>
+									<td class="td2"><input type="text" id="email" /></td>
+								</tr>
+								<tr>
+									<td class="td1">QQ：</td>
+									<td class="td2"><input type="text" id="qq" /></td>
+								</tr>
+								<tr>
+									<td class="td1">电话：</td>
+									<td class="td2"><input type="text" id="phone" /></td>
+								</tr>
+								<tr>
+									<td class="td1">内容：</td>
+									<td class="td2"><textarea id="content" rows="5"></textarea> </td>
+								</tr>
+								<tr id="submit">
+									<td colspan="2">
+										<input type="reset" id="btnReset" value="重置" />
+										<input type="submit" id="btnSubmit" value="提交" />
+									</td>
+								</tr>
+							</table>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--底部容器-->
+			<div id="bottomBox">
+				<div id="bbox">
+		    		<div>地址： 成都市人民中路一段26号2楼 &nbsp;&nbsp;&nbsp;电话： 018-88888888，028-12345678&nbsp;&nbsp;&nbsp; 邮箱：weiwang66666@163.com; &nbsp;&nbsp;&nbsp;新智达科技有限公司</div>
+		    		<div>CopyRight 2018 All right reserved ICP &nbsp;&nbsp;&nbsp;备案号：0738999</div>
+		    	</div>
+			</div>
+			
+			<!--在线咨询功能-->
+		    <div id="onlineBox">
+		    	<div class="onlineImg">
+		    		<!--腾讯提供的接口-->
+		    		<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1754809865&amp;site=www.maiziedu.com&amp;menu=yes"><img src="../img/index/service.png"  height="100" width="100" /></a>
+		    	</div>
+		    	<div class="onlineText">
+		    		<span>点击咨询</span>
+		    	</div>
+		    </div>
+		</div>
+	</body>
+</html>

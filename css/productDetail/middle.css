@@ -1,0 +1,15 @@
+/*产品详细展示页面中间右部样式*/
+/*产品列表部分*/
+/*标题*/
+#list .productList .title {
+	text-align: center;
+	color: #F00;
+	font-weight: bold;
+	line-height: 35px;
+	/*margin-top: 20px;*/
+}
+/*图片部分*/
+.productList .picture {
+	margin-top: 20px;
+	margin: 20px auto;
+}

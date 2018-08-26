@@ -1,0 +1,192 @@
+body {
+	background: url(../../img/index/bj.gif);
+}
+#mainBox {
+	padding: 0px;
+	margin: 0px auto;
+	width: 1080px;
+	height: 1600px;
+	border: 1px solid darkolivegreen;
+}
+#topBox {
+	position: relative;
+}
+#topBox #logo {
+	position: relative;
+	height: 95px;
+	line-height: 95px;
+	margin-top: 45px;
+	/*border: 1px solid red;*/
+}
+/*设为首页/联系我们*/
+#logo .logoContact {
+	position: absolute;
+	top: -85px;
+	right: 25px;
+	width: auto;
+}
+.logoContact ul{
+	list-style: none;
+}
+.logoContact ul li {
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 5px;
+}
+#contactUs li a {
+	text-decoration: none;
+	color: darkgreen;
+	font-weight: 500;
+}
+#contactUs li a:hover {
+	color: darkred;
+}
+/*logo图片*/
+.logoImg {
+	width: 120px;
+	position: absolute;
+	top: -10px;
+	left: 40px;
+	float: left;
+}
+/*logo文字*/
+.logoFont {
+	position: absolute;
+	top: -18px;
+	left: 170px;
+}
+.logoFont .logoSpan {
+	font-size: 20px;
+	float: left;
+	width: 300px;
+	/*height: 60px;*/
+	font-weight: bold;
+	color: #C30;
+	font-family: "blackadder itc";
+	letter-spacing: 5px;
+}
+/*服务热线*/
+.logoRight {
+	position: absolute;
+	bottom: 15px;
+	right: 10px;
+}
+/*menu菜单部分*/
+#mainMenu { 
+	position: absolute;/*相对于topBox为绝对定位*/
+	top: -63px;
+	width: 100%;
+}
+#nav {
+	background: url(../../img/index/navbj.jpg) repeat-x;
+	line-height: 44px;
+}
+#nav ul {
+	list-style: none;
+}
+#nav ul li {
+	display: inline-block;
+	background: url(../../img/index/navimg.jpg) center no-repeat right;
+	width: 95px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 39px;
+	color: darkolivegreen;
+}
+/*对全局的链接样式设置*/
+a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: darkolivegreen;
+}
+/*对主菜单下的二级菜单样式设置*/
+#nav2 a {
+	color: antiquewhite;
+}
+/*鼠标移到“首页”主菜单上样式设置*/
+#nav .index a:hover {
+	color: red;
+}
+#nav ul li:hover {
+	background: lightgreen;
+	border-radius: 10px;
+}
+/*鼠标移到二级菜单上时的样式设置*/
+#nav2 ul a:hover {
+	color: blueviolet;
+	/*background: lightgreen;*/
+	border-radius: 5px;	
+}
+#nav2 ul li:hover{
+	background-color: rgb(0, 200, 255);
+}
+/*对“关于我们”主菜单的二级菜单进行定位及样式设置*/
+#mainMenu {
+	position: relative;
+}
+#nav2 ul{
+	list-style: none;
+}
+#nav2 ul li {
+	width: 85px;
+	border: 1px solid darkolivegreen;
+	border-top: none;
+	background: rgba(0, 200, 120, 0.5);
+	text-align: center;
+	padding: 1px;
+	font-weight: bold;
+	border-radius: 5px;
+	display: block;
+	line-height: 39px;
+}
+#nav2 {
+	position: absolute;
+	top: 40px;
+	left: 104px;
+	display: none;
+	z-index: 10; /*解决下拉二级菜单被图片覆盖的问题, 10为最高级*/
+}
+#nav .aboutUS:hover #nav2 {
+	display: block;
+}
+/*对“新闻资讯”主菜单的二级菜单进行设置*/
+#nav3 ul li {
+	width: 85px;
+	border: 1px solid darkolivegreen;
+	border-top: none;
+	background: rgba(0, 200, 120, 0.5);
+	text-align: center;
+	padding: 1px;
+	font-weight: bold;
+	border-radius: 5px;
+	display: block;
+	line-height: 39px;
+}
+#nav3 a {
+	color: white;
+}
+#nav3 {
+	position: absolute;
+	top: 40px;
+	left: 204px;
+	display: none;
+	z-index: 10;
+}
+#nav3 ul li:hover{
+	background-color: rgb(0, 200, 255);
+}
+#nav .news:hover #nav3 {
+	display: block;
+}
+#nav3 ul a:hover {
+	color: blueviolet;
+	/*background: lightgreen;*/
+	border-radius: 5px;	
+}
+/*"产品介绍"链接样式*/
+.productIntro a:hover {
+	color: red;
+}
+

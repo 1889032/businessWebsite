@@ -1,0 +1,17 @@
+body {
+	position: relative;
+}
+#onlineBox {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 200px;
+	right: 10px;
+	z-index: 10;
+}
+#onlineBox .onlineText {
+	text-align: center;
+}
+.onlineText span {
+	color: red;
+}
